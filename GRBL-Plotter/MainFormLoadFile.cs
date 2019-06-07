@@ -425,6 +425,11 @@ namespace GRBL_Plotter
             Properties.Settings.Default.language = "de-DE";
             MessageBox.Show("Ein Neustart von GRBL-Plotter ist erforderlich");
         }
+                private void slovakToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.language = "sk-SK";
+            MessageBox.Show("Vyžaduje sa reštart GRBL-plottru");
+        }
 #endregion
 
         // Ctrl-V to paste graphics
@@ -748,6 +753,8 @@ namespace GRBL_Plotter
                 btnZeroA.Text = "Zero " + ctrl4thName;
                 if (Properties.Settings.Default.language == "de-DE")
                     btnZeroA.Text = ctrl4thName + " nullen";
+                if (Properties.Settings.Default.language == "sk-SK")
+                    btnZeroA.Text = ctrl4thName + " nula";
 
                 virtualJoystickA.Visible |= ctrl4thAxis || grbl.axisA;
                 //virtualJoystickB.Visible = ctrl4thAxis;

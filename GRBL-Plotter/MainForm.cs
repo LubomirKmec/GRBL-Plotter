@@ -880,6 +880,11 @@ namespace GRBL_Plotter
                             msg = "Werkzeugwechsel ausführen:\r" + fCTBCode.Lines[fCTBCodeClickedLineNow] + "\rdrücke Start um fortzufahren.";
                             MessageBox.Show(msg, "Werkzeug-/ Stiftwechsel");
                         }
+                        if (Properties.Settings.Default.language == "sk-SK")
+                        {
+                            msg = "Potrebná zmena nástroja:\r" + fCTBCode.Lines[fCTBCodeClickedLineNow] + "\rpokračujte stlačením tlačidla štart.";
+                            MessageBox.Show(msg, "Zmena nástroja / pera");
+                        }
                         else MessageBox.Show(msg, "Tool / Pen change!");
                     }
 

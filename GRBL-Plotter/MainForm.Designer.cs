@@ -264,6 +264,7 @@ namespace GRBL_Plotter
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.slovakToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createGCodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textWizzardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1878,7 +1879,8 @@ namespace GRBL_Plotter
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
-            this.deutschToolStripMenuItem});
+            this.deutschToolStripMenuItem,
+            this.slovakToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             // 
@@ -1893,6 +1895,12 @@ namespace GRBL_Plotter
             this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
             resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
             this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
+            // 
+            // slovakToolStripMenuItem
+            // 
+            this.slovakToolStripMenuItem.Name = "slovakToolStripMenuItem";
+            resources.ApplyResources(this.slovakToolStripMenuItem, "slovakToolStripMenuItem");
+            this.slovakToolStripMenuItem.Click += new System.EventHandler(this.slovakToolStripMenuItem_Click);
             // 
             // createGCodeToolStripMenuItem
             // 
@@ -2466,6 +2474,7 @@ namespace GRBL_Plotter
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem slovakToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gCodeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mirrorXToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mirrorYToolStripMenuItem;

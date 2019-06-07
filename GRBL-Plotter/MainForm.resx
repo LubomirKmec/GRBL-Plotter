@@ -5197,6 +5197,15 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 22</value>
   </data>
+  <data name="slovakToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="slovakToolStripMenuItem.Text" xml:space="preserve">
+    <value>Slovak</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 22</value>
+  </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>Language</value>
   </data>
@@ -8898,6 +8907,12 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
     <value>deutschToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;deutschToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slovakToolStripMenuItem.Name" xml:space="preserve">
+    <value>slovakToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;slovakToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;createGCodeToolStripMenuItem.Name" xml:space="preserve">
