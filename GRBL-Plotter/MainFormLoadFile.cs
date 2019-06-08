@@ -50,7 +50,7 @@ namespace GRBL_Plotter
         private void btnOpenFile_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "gcode files (*.nc, *.cnc, *.gcode)|*.nc;*.cnc;*.gcode|SVG files (*.svg)|*.svg|DXF files (*.dxf)|*.dxf|Drill files (*.drd, *.drl, *.dri)|*.drd;*.drl;*.dri|All files (*.*)|*.*";
+            openFileDialog1.Filter = "gcode files (*.txt, *.tap, *.nc, *.cnc, *.gcode)|*.txt;*.tap*.nc;*.cnc;*.gcode|SVG files (*.svg)|*.svg|DXF files (*.dxf)|*.dxf|Drill files (*.drd, *.drl, *.dri)|*.drd;*.drl;*.dri|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 loadFile(openFileDialog1.FileName);
@@ -382,7 +382,7 @@ namespace GRBL_Plotter
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.InitialDirectory = Path.GetDirectoryName(savePath);
             sfd.FileName = savePath+saveName + "_";
-            sfd.Filter = "GCode (*.nc)|*.nc|GCode (*.cnc)|*.cnc|GCode (*.gcode)|*.gcode|All files (*.*)|*.*";   // "GCode|*.nc";
+            sfd.Filter = "GCode (*.txt)|*.txt|GCode (*.tap)|*.tap|GCode (*.nc)|*.nc|GCode (*.cnc)|*.cnc|GCode (*.gcode)|*.gcode|All files (*.*)|*.*";   // "GCode|*.nc";
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 string txt = fCTBCode.Text;
