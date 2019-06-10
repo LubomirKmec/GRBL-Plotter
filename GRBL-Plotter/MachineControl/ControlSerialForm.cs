@@ -138,7 +138,8 @@ namespace GRBL_Plotter
         private void SerialForm_FormClosing(object sender, FormClosingEventArgs e)
         {   if ((e.CloseReason.ToString() != "FormOwnerClosing") & !mainformAskClosing)
             {
-                MessageBox.Show("Serial Connection is needed.\r\nClose main window instead","Attention");
+                //MessageBox.Show("Serial Connection is needed.\r\nClose main window instead","Attention");
+                MessageBox.Show("Je potrebné sériové pripojenie.\r\nNamiesto toho zatvorte hlavné okno", "Pozor");
                 e.Cancel = true;
                 return;
             }
@@ -1097,7 +1098,8 @@ namespace GRBL_Plotter
                         }
                     }
                     else
-                    {   addToLog("!!! Port is closed !!!");
+                    {   //addToLog("!!! Port is closed !!!");
+                        addToLog("!!! Port je zatvorený !!!");
                         resetStreaming();
                     }
 
@@ -1601,7 +1603,15 @@ namespace GRBL_Plotter
                 string cmd = cBCommand.Text;
                 cBCommand.Items.Remove(cBCommand.SelectedItem);
                 cBCommand.Items.Insert(0, cmd);
-                requestSend(cmd);
+
+                string prikazy = cmd;
+                char oddelovac = ';';
+                string[] prikaz = prikazy.Split(oddelovac);
+                foreach (var jedenprikaz in prikaz)
+                {                   
+                    requestSend(jedenprikaz);
+                }
+                //requestSend(cmd);
                 cBCommand.Text = cmd;
             }
         }

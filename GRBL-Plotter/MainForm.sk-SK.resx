@@ -3845,4 +3845,28 @@ Vstupný kolík je k dispozícii na pripojenie k tlačidlu alebo prepínaču, ak
   <data name="label_status0.Text" xml:space="preserve">
     <value>Stav:</value>
   </data>
+  <data name="lbInfo.Text" xml:space="preserve">
+    <value>Správa</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Choď na</value>
+  </data>
+  <data name="btnFeedHold.Text" xml:space="preserve">
+    <value>Pozastavenie</value>
+  </data>
+  <data name="btnHome.Text" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="btnKillAlarm.Text" xml:space="preserve">
+    <value>Zrušiť alarm</value>
+  </data>
+  <data name="btnOverrideDoor.Text" xml:space="preserve">
+    <value>Dvere</value>
+  </data>
+  <data name="btnResume.Text" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="cBSendJogStop.Text" xml:space="preserve">
+    <value>Zastaviť jogging tlačidlom myši nahor</value>
+  </data>
 </root>

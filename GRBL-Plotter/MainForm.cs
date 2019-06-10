@@ -120,7 +120,8 @@ namespace GRBL_Plotter
             {
                 Exception ex = (Exception)e.ExceptionObject;
                 MessageBox.Show(ex.Message, "Main Form Application exception\r" + GetAllFootprints(ex));
-                if (MessageBox.Show("Quit GRBL-Plotter?","Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if //(MessageBox.Show("Quit GRBL-Plotter?","Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                (MessageBox.Show("Ukončiť GRBL-Plotter?", "Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     Application.Exit();
             }
         }
@@ -334,11 +335,14 @@ namespace GRBL_Plotter
 
                 if (Properties.Settings.Default.restoreWorkCoordinates)
                 {
+                    
                     coordinateG = Properties.Settings.Default.lastOffsetCoord;
-                    _serial_form.addToLog("* Restore last selected coordinate system:");
+                    // _serial_form.addToLog("* Restore last selected coordinate system:");
+                    _serial_form.addToLog("* Obnoviť posledný vybraný súradnicový systém:");
                     sendCommand(String.Format("G{0}", coordinateG));
 
-                    _serial_form.addToLog("* Restore saved position after reset\r\n* and set initial feed rate:");
+                    //_serial_form.addToLog("* Restore saved position after reset\r\n* and set initial feed rate:");
+                    _serial_form.addToLog("* Obnovenie uloženej polohy po resete\r\n* a nastavenie počiatočnej rýchlosťi posuvu:");
                     string setAxis = String.Format("{0} X{1} Y{2} Z{3} ", zeroCmd, x, y, z);
 
                     if (grbl.axisA)
@@ -356,7 +360,9 @@ namespace GRBL_Plotter
                     setAxis += String.Format("F{0}", Properties.Settings.Default.importGCXYFeed);
 
                     sendCommand(setAxis.Replace(',', '.'));
-                }
+                    
+                } 
+                
  //               else
  //                   sendCommand(String.Format("F{0}", Properties.Settings.Default.importGCXYFeed).Replace(',', '.'));
                 flagResetOffset = false;
@@ -424,7 +430,8 @@ namespace GRBL_Plotter
                     case grblState.hold:
                         btnResume.BackColor = Color.Yellow;
                         lastInfoText = lbInfo.Text;
-                        lbInfo.Text = "Press 'Resume' to proceed";
+                        //lbInfo.Text = "Press 'Resume' to proceed";
+                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Pokračovať'";
                         lbInfo.BackColor = Color.Yellow;
                         if (signalResume == 0) { signalResume = 1; }
                         break;
@@ -433,7 +440,8 @@ namespace GRBL_Plotter
                     case grblState.alarm:
                         signalLock = 1;
                         btnKillAlarm.BackColor = Color.Yellow;
-                        lbInfo.Text = "Press 'Kill Alarm' to proceed";
+                        //lbInfo.Text = "Press 'Kill Alarm' to proceed";
+                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Zrušiť alarm'";
                         lbInfo.BackColor = Color.Yellow;
                         if (_heightmap_form != null)
                             _heightmap_form.stopScan();
@@ -443,7 +451,8 @@ namespace GRBL_Plotter
                     case grblState.door:
                         btnResume.BackColor = Color.Yellow;
                         lastInfoText = lbInfo.Text;
-                        lbInfo.Text = "Press 'Resume' to proceed";
+                        //lbInfo.Text = "Press 'Resume' to proceed";
+                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Pokračovať'";
                         lbInfo.BackColor = Color.Yellow;
                         if (signalResume == 0) { signalResume = 1; }
                         break;
@@ -525,7 +534,8 @@ namespace GRBL_Plotter
 
             overrideMessage = "";
             if (e.Enable)
-                overrideMessage = " !!! Override !!!";
+                //overrideMessage = " !!! Override !!!";
+                overrideMessage = " !!! Prepisané !!!";
             lbInfo.Text = lastLabelInfoText + overrideMessage;
         }
 
@@ -747,12 +757,14 @@ namespace GRBL_Plotter
         {
             if (!grbl.isVersion_0 && _serial_form.isLasermode)
             {
-                lbInfo.Text = "Laser Mode active $32=1";
+                //lbInfo.Text = "Laser Mode active $32=1";
+                lbInfo.Text = "Laserový režim aktívny $32=1";
                 lbInfo.BackColor = Color.Fuchsia;
             }
             else
             {
-                lbInfo.Text = "Laser Mode not active $32=0";
+                //lbInfo.Text = "Laser Mode not active $32=0";
+                lbInfo.Text = "Laserový režim neaktívny $32=0";
                 lbInfo.BackColor = Color.Lime;
             }
         }
@@ -835,9 +847,11 @@ namespace GRBL_Plotter
                     if (isStreamingOk)
                     {
                         if (isStreamingCheck)
-                        { lbInfo.Text = "Finish checking G-Code"; }
+                        //{ lbInfo.Text = "Finish checking G-Code"; }
+                        { lbInfo.Text = "Ukončená kontrola G-Code"; }
                         else
-                        { lbInfo.Text = "Finish sending G-Code"; }
+                        //{ lbInfo.Text = "Finish sending G-Code"; }
+                        { lbInfo.Text = "Dokončené odosielnie G-Code"; }
                         lbInfo.BackColor = Color.Lime;
                         pbFile.Value = 0;
                         pbBuffer.Value = 0;
@@ -855,14 +869,16 @@ namespace GRBL_Plotter
                     updateControls(true);
                     btnStreamStart.Image = Properties.Resources.btn_play;
                     isStreamingPause = true;
-                    lbInfo.Text = "Wait for IDLE, then pause (" + e.CodeLine.ToString() + ")";
+                    //lbInfo.Text = "Wait for IDLE, then pause (" + e.CodeLine.ToString() + ")";
+                    lbInfo.Text = "Počkajte na IDLE, potom pauzu (" + e.CodeLine.ToString() + ")";
                     lbInfo.BackColor = Color.Yellow;
                     break;
                 case grblStreaming.pause:
                     updateControls(true);
                     btnStreamStart.Image = Properties.Resources.btn_play;
                     isStreamingPause = true;
-                    lbInfo.Text = "Pause streaming - press play (" + e.CodeLine.ToString() + ")";
+                    //lbInfo.Text = "Pause streaming - press play (" + e.CodeLine.ToString() + ")";
+                    lbInfo.Text = "Pozastavenie streamingu - stlačte play (" + e.CodeLine.ToString() + ")";
                     signalPlay = 1;
                     lbInfo.BackColor = Color.Yellow;
                     isStreamingPauseFirst = (streamingPauseFirstLine != e.CodeLine);
@@ -875,6 +891,7 @@ namespace GRBL_Plotter
 
                     if (isStreamingPauseFirst && fCTBCode.Lines[fCTBCodeClickedLineNow].Contains("(T"))
                     {   string msg = "Tool change needed:\r" + fCTBCode.Lines[fCTBCodeClickedLineNow] + "\rpress start to continue.";
+                        //string msg = "Potrebná zmena nástroja:\r" + fCTBCode.Lines[fCTBCodeClickedLineNow] + "\rpre pokračovanie stlačte štart.";
                         if (Properties.Settings.Default.language == "de-DE")
                         {
                             msg = "Werkzeugwechsel ausführen:\r" + fCTBCode.Lines[fCTBCodeClickedLineNow] + "\rdrücke Start um fortzufahren.";
@@ -1066,11 +1083,13 @@ namespace GRBL_Plotter
                     else
                         grbl.RX_BUFFER_SIZE = 127;
 
-                    _serial_form.addToLog("* Assume buffer size of " + grbl.RX_BUFFER_SIZE + " bytes");
+                    //_serial_form.addToLog("* Assume buffer size of " + grbl.RX_BUFFER_SIZE + " bytes");
+                    _serial_form.addToLog("* Predpoklaná veľkosť vyrovnávacej pamäte " + grbl.RX_BUFFER_SIZE + " bajtov");
                 }
                 else
                 {  if (grbl.RX_BUFFER_SIZE != 127)
-                        _serial_form.addToLog("* Buffer size is not 127 but " + grbl.RX_BUFFER_SIZE + " bytes!\r* Check [Setup - Flow control]");
+                        //_serial_form.addToLog("* Buffer size is not 127 but " + grbl.RX_BUFFER_SIZE + " bytes!\r* Check [Setup - Flow control]");
+                        _serial_form.addToLog("* Veľkosť vyrovnávacej pamäte nie je 127, ale " + grbl.RX_BUFFER_SIZE + " bajtov!\r* Check [Setup - Flow control]");
                 }
                 loadSettings(sender, e);
             }
@@ -1673,7 +1692,8 @@ namespace GRBL_Plotter
                 {   startStreaming(lineNr);      // 1142
                 }
                 else
-                {   MessageBox.Show("Not a valid number, set line to 0", "Attention");
+                {   //MessageBox.Show("Not a valid number, set line to 0", "Attention");
+                    MessageBox.Show("Nie je platné číslo, nastavte riadok na 0", "Pozor");
                     toolStrip_tb_StreamLine.Text = "0";
                 }
             }

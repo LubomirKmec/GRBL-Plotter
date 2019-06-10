@@ -298,6 +298,7 @@ namespace GRBL_Plotter
             resources.GetString("cBCommand.Items2")});
             resources.ApplyResources(this.cBCommand, "cBCommand");
             this.cBCommand.Name = "cBCommand";
+            this.toolTipSerial.SetToolTip(this.cBCommand, resources.GetString("cBCommand.ToolTip"));
             this.cBCommand.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbCommand_KeyPress);
             // 
             // cbStatus

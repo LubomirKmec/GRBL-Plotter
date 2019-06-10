@@ -981,6 +981,9 @@ Not for GRBL Vers. &lt; 1.0</value>
   <data name="cBCommand.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="cBCommand.ToolTip" xml:space="preserve">
+    <value>.</value>
+  </data>
   <data name="&gt;&gt;cBCommand.Name" xml:space="preserve">
     <value>cBCommand</value>
   </data>

@@ -133,7 +133,7 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>184, 12</value>
+    <value>207, 12</value>
   </data>
   <metadata name="cmsCode.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>581, 17</value>
@@ -5194,9 +5194,6 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch</value>
   </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
-  </data>
   <data name="slovakToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 22</value>
   </data>
@@ -5204,7 +5201,7 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
     <value>Slovak</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 22</value>
+    <value>204, 22</value>
   </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>Language</value>

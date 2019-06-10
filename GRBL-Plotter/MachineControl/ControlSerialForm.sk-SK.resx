@@ -3187,4 +3187,7 @@ Potom spustite referenčný cyklus alebo ponechajte GRBL.</value>
         //8=
 </value>
   </data>
+  <data name="cBCommand.ToolTip" xml:space="preserve">
+    <value>Pridal som možnosť odoslať viac príkazov naraz. Oddeľovanie jednotlivých príkazov pomocou bodkočiarky ;</value>
+  </data>
 </root>
