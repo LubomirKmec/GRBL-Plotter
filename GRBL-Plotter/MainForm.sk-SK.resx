@@ -574,7 +574,7 @@ Na pripojenie tlačidla alebo prepínača je k dispozícii vstupný kolík.</val
     <value>136, 20</value>
   </data>
   <data name="gCodeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Transformácia GCode-u</value>
+    <value>Transformácia GCode</value>
   </data>
   <data name="mirrorXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>258, 22</value>
@@ -806,7 +806,7 @@ Na pripojenie tlačidla alebo prepínača je k dispozícii vstupný kolík.</val
     <value>53, 20</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>O...</value>
+    <value>O programe</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3813,5 +3813,36 @@ Na pripojenie tlačidla alebo prepínača je k dispozícii vstupný kolík.</val
         ////////////////////////////////////////////////////////////////////////////////
         //8=
 </value>
+  </data>
+  <data name="btnOverrideDoor.ToolTip" xml:space="preserve">
+    <value>Tento príkaz, hoci je typicky pripojený k vstupnej bráne, umožňuje použitie grafického používateľského rozhrania.
+Okamžite sa preruší do stavu DVERÍ a vypne sa vreteno a chladiaca kvapalina. Ak je stroj v pohybe, stroj sa spomalí a zastaví.
+Ak je spustený počas navádzania, Grbl chce zastaviť pohyb a namiesto toho spustiť alarm.
+Ak je už v stave pozastavenia alebo HOLD, stav DOOR ho nahradí.
+Ak je zapnutá možnosť parkovania, Grbl zaparkuje vreteno na určené miesto.
+Príkaz sa vykoná, keď je Grbl v stave IDLE, HOLD, RUN, HOMING alebo JOG. Inak sa ignoruje.
+Ak je jogging, bezpečnostné dvere zrušia krokovanie a všetky pohyby vo fronte plánovača. Keď sú bezpečnostné dvere zatvorené a obnovené, Grbl sa chce vrátiť do stavu IDLE.
+Vstupný kolík je k dispozícii na pripojenie k tlačidlu alebo prepínaču, ak je zapnutý s možnosťou kompilácie.</value>
+  </data>
+  <data name="tBURL.Text" xml:space="preserve">
+    <value>Tu vložte URL súboru SVG / DXF</value>
+  </data>
+  <data name="gBOverrideASGB.Text" xml:space="preserve">
+    <value>Prepnúť stav príslušenstva</value>
+  </data>
+  <data name="gBOverrideFRGB.Text" xml:space="preserve">
+    <value>Rýchlosť posuvu</value>
+  </data>
+  <data name="gBOverrideRGB.Text" xml:space="preserve">
+    <value>Rýchlosť</value>
+  </data>
+  <data name="gBOverrideSSGB.Text" xml:space="preserve">
+    <value>Rýchlosť vretena</value>
+  </data>
+  <data name="label_status.Text" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="label_status0.Text" xml:space="preserve">
+    <value>Stav:</value>
   </data>
 </root>
