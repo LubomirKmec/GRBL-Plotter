@@ -537,9 +537,15 @@
     <Content Include="Recent.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\126-1262666_open-exit-door-open-door-icon-png-clipart.png" />
+    <Content Include="Resources\1d627942f0b2f115f8638936a212244a-play_icon_full_color.png" />
+    <Content Include="Resources\Crystal_Project_pause-queue.png" />
     <Content Include="Resources\fctb_hotkeys.txt" />
     <None Include="Resources\led_on.png" />
     <None Include="Resources\led_off.png" />
+    <Content Include="Resources\Home-PNG-03.png" />
+    <Content Include="Resources\no_alarm-512.png" />
+    <Content Include="Resources\reset.png" />
     <Content Include="_misc\script_pen_pickup.nc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

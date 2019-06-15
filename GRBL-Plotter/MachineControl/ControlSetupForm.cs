@@ -152,7 +152,9 @@ namespace GRBL_Plotter
         }
         
         private void btnApplyChangings_Click(object sender, EventArgs e)
-        {   saveSettings();  }
+        {
+            saveSettings();
+        }
 
         private void btnColorBackground_Click(object sender, EventArgs e)
         { applyColor(btnColorBackground, "colorBackground"); }

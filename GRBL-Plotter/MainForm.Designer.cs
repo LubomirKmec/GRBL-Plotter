@@ -1283,6 +1283,7 @@ namespace GRBL_Plotter
             // 
             // btnKillAlarm
             // 
+            this.btnKillAlarm.BackgroundImage = global::GRBL_Plotter.Properties.Resources.no_alarm_512;
             resources.ApplyResources(this.btnKillAlarm, "btnKillAlarm");
             this.btnKillAlarm.Name = "btnKillAlarm";
             this.toolTip1.SetToolTip(this.btnKillAlarm, resources.GetString("btnKillAlarm.ToolTip"));
@@ -1291,6 +1292,7 @@ namespace GRBL_Plotter
             // 
             // btnReset
             // 
+            this.btnReset.BackgroundImage = global::GRBL_Plotter.Properties.Resources.reset;
             resources.ApplyResources(this.btnReset, "btnReset");
             this.btnReset.Name = "btnReset";
             this.toolTip1.SetToolTip(this.btnReset, resources.GetString("btnReset.ToolTip"));
@@ -1700,6 +1702,7 @@ namespace GRBL_Plotter
             // 
             // btnHome
             // 
+            this.btnHome.BackgroundImage = global::GRBL_Plotter.Properties.Resources.Home_PNG_03;
             resources.ApplyResources(this.btnHome, "btnHome");
             this.btnHome.Name = "btnHome";
             this.toolTip1.SetToolTip(this.btnHome, resources.GetString("btnHome.ToolTip"));

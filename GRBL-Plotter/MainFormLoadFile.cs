@@ -145,7 +145,8 @@ namespace GRBL_Plotter
         {
             if (isStreaming)
             {
-                MessageBox.Show("Streaming must be stopped before loading new file","Attention");
+                //MessageBox.Show("Streaming must be stopped before loading new file","Attention");
+                MessageBox.Show("Streaming musí byť zastavený pred načítaním nového súuboru", "Pozor");
                 return;
             }
             if (fileName.IndexOf("http") >= 0)
@@ -158,6 +159,7 @@ namespace GRBL_Plotter
                 if (!File.Exists(fileName))
                 {
                     MessageBox.Show("File not found: '" + fileName + "'");
+                    MessageBox.Show("Nenájdený súbor: '" + fileName + "'");
                     return;
                 }
             }

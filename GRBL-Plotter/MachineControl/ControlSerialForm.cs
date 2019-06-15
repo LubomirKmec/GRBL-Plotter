@@ -1331,6 +1331,11 @@ namespace GRBL_Plotter
                 tmp = cleanUpCodeLine(gCode[i]);
                 if ((!string.IsNullOrEmpty(tmp)) && (tmp[0] != ';'))//trim lines and remove all empty lines and comment lines
                 {
+                    if(tmp.IndexOf("M3") >= 0 || tmp.IndexOf("M03") >= 0)
+                    {
+                        int a = 1;
+                                              
+                    }
                     if (tmp.IndexOf("M98") >= 0)    // any subroutines?
                     {   pWord = findDouble("P", -1, tmp);
                         lWord = findDouble("L", 1, tmp);

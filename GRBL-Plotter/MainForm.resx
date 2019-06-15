@@ -133,7 +133,7 @@
     <value>1</value>
   </data>
   <data name="fCTBCode.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
-    <value>207, 12</value>
+    <value>249, 12</value>
   </data>
   <metadata name="cmsCode.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>581, 17</value>
@@ -247,7 +247,7 @@
     <value>24</value>
   </data>
   <data name="fCTBCode.Text" xml:space="preserve">
-    <value>(Paste GCode or load file)</value>
+    <value>(Vlož GCode alebo načítaj súbor)</value>
   </data>
   <data name="&gt;&gt;fCTBCode.Name" xml:space="preserve">
     <value>fCTBCode</value>
@@ -2787,6 +2787,9 @@
   <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="btnOverrideDoor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="btnOverrideDoor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2827,6 +2830,9 @@ An input pin is available to connect a button or switch, if enabled with a compi
   <data name="&gt;&gt;btnOverrideDoor.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="btnResume.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="btnResume.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2864,6 +2870,9 @@ start executing the buffer and Grbl will begin moving the axes.</value>
   </data>
   <data name="&gt;&gt;btnResume.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="btnFeedHold.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="btnFeedHold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2943,6 +2952,9 @@ the machine is running before hitting reset, except of course if there is some e
   <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="btnKillAlarm.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <data name="btnKillAlarm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2986,6 +2998,9 @@ will override the locks and allow G-code functions to work again.
   <data name="&gt;&gt;btnKillAlarm.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="btnReset.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <data name="btnReset.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -3006,6 +3021,9 @@ will override the locks and allow G-code functions to work again.
   </data>
   <data name="btnReset.Text" xml:space="preserve">
     <value>RESET</value>
+  </data>
+  <data name="btnReset.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
   </data>
   <data name="btnReset.ToolTip" xml:space="preserve">
     <value>This is Grbl's soft reset command 'Ctrl-x'. It's real-time and can be sent at any time. 
@@ -3124,7 +3142,7 @@ to how much it lost (this is the problem with steppers in general). Otherwise, G
     <value>2</value>
   </data>
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cBSendJogStop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,23,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cBSendJogStop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="Absolute,23,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tLPRechtsUntenRechts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -4465,6 +4483,9 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
   <data name="&gt;&gt;label_wa.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="btnHome.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <data name="btnHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4479,6 +4500,9 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
   </data>
   <data name="btnHome.Text" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="btnHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
   </data>
   <data name="btnHome.ToolTip" xml:space="preserve">
     <value>Start Homing (if enabled in GRBL)</value>

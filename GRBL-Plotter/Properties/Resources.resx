@@ -118,20 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="btn_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="turn_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="led_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\led_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="led_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\led_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="126-1262666_open-exit-door-open-door-icon-png-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\126-1262666_open-exit-door-open-door-icon-png-clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fctb_hotkeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fctb_hotkeys.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Home-PNG-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home-PNG-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alarm_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="inv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1d627942f0b2f115f8638936a212244a-play_icon_full_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1d627942f0b2f115f8638936a212244a-play_icon_full_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turn_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turn_l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crystal_Project_pause-queue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crystal_Project_pause-queue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Properties.Resources</value>
+  </data>
   <data name="modell" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\modell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flip_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flip_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,34 +184,7 @@
   <data name="flip_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flip_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="turn_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\turn_l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="turn_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\turn_r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="alarm_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\alarm_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="error_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\error_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="setting_codes_en_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting_codes_en_US.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="fctb_hotkeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\fctb_hotkeys.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="String" xml:space="preserve">
-    <value>Properties.Resources</value>
-  </data>
-  <data name="led_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\led_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="led_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\led_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="no_alarm-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_alarm-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

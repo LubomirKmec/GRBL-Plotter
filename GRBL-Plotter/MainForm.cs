@@ -431,7 +431,7 @@ namespace GRBL_Plotter
                         btnResume.BackColor = Color.Yellow;
                         lastInfoText = lbInfo.Text;
                         //lbInfo.Text = "Press 'Resume' to proceed";
-                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Pokračovať'";
+                        lbInfo.Text = "Pre pokračovanie stlačte 'Pokračovať'";
                         lbInfo.BackColor = Color.Yellow;
                         if (signalResume == 0) { signalResume = 1; }
                         break;
@@ -441,7 +441,7 @@ namespace GRBL_Plotter
                         signalLock = 1;
                         btnKillAlarm.BackColor = Color.Yellow;
                         //lbInfo.Text = "Press 'Kill Alarm' to proceed";
-                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Zrušiť alarm'";
+                        lbInfo.Text = "Pre pokračovanie stlačte 'Zrušiť alarm'";
                         lbInfo.BackColor = Color.Yellow;
                         if (_heightmap_form != null)
                             _heightmap_form.stopScan();
@@ -452,7 +452,7 @@ namespace GRBL_Plotter
                         btnResume.BackColor = Color.Yellow;
                         lastInfoText = lbInfo.Text;
                         //lbInfo.Text = "Press 'Resume' to proceed";
-                        lbInfo.Text = "Ak chcete pokračovať, stlačte tlačidlo 'Pokračovať'";
+                        lbInfo.Text = "Pre pokračovanie stlačte 'Pokračovať'";
                         lbInfo.BackColor = Color.Yellow;
                         if (signalResume == 0) { signalResume = 1; }
                         break;
@@ -929,12 +929,14 @@ namespace GRBL_Plotter
             lbInfo.Text += overrideMessage;
         }
         private void btnStreamStart_Click(object sender, EventArgs e)
-        {   startStreaming(); }
+        {
+            startStreaming();
+        }
         // if startline > 0 start with pause
         private void startStreaming(int startLine=0)
         {
             if (fCTBCode.LinesCount > 1)
-            {
+            {                
                 if (!isStreaming)
                 {
                     isStreaming = true;
