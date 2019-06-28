@@ -43,14 +43,14 @@ namespace GRBL_Plotter
     {
         private const string extensionDrill = ".drd,.drl,.dri";             //   else if ((ext == ".drd") || (ext == ".drl") || (ext == ".dri"))
         private const string extensionPicture = ".bmp,.gif,.png,.jpg";      //   else if ((ext == ".bmp") || (ext == ".gif") || (ext == ".png") || (ext == ".jpg"))
-        private const string extensionGCode = ".nc,.cnc,.gcode";            //   else if (ext == ".nc")
+        private const string extensionGCode = ".tap,.txt,.nc,.cnc,.gcode";            //   else if (ext == ".nc")
 
         #region MAIN-MENU FILE
         // open a file via dialog
         private void btnOpenFile_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "gcode files (*.txt, *.tap, *.nc, *.cnc, *.gcode)|*.txt;*.tap*.nc;*.cnc;*.gcode|SVG files (*.svg)|*.svg|DXF files (*.dxf)|*.dxf|Drill files (*.drd, *.drl, *.dri)|*.drd;*.drl;*.dri|All files (*.*)|*.*";
+            openFileDialog1.Filter = "gcode files (*.txt, *.tap, *.nc, *.cnc, *.gcode)|*.txt;*.tap;*.nc;*.cnc;*.gcode|SVG files (*.svg)|*.svg|DXF files (*.dxf)|*.dxf|Drill files (*.drd, *.drl, *.dri)|*.drd;*.drl;*.dri|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 loadFile(openFileDialog1.FileName);

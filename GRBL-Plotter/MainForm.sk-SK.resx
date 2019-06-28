@@ -574,7 +574,7 @@ Na pripojenie tlačidla alebo prepínača je k dispozícii vstupný kolík.</val
     <value>136, 20</value>
   </data>
   <data name="gCodeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Transformácia GCode</value>
+    <value>Transformácia kódu</value>
   </data>
   <data name="mirrorXToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>258, 22</value>
