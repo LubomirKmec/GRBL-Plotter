@@ -172,7 +172,7 @@ namespace GRBL_Plotter
             toolTableArray[1].diff = int.MaxValue;
             toolTableArray[1].name = defaultTool[2];
 
-            string file = System.Windows.Forms.Application.StartupPath + "\\tools.csv";
+            string file = System.Windows.Forms.Application.StartupPath  + "\\tools.csv";
             if (File.Exists(file))
             {
                 string[] readText = File.ReadAllLines(file);
