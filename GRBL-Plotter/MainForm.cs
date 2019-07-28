@@ -51,6 +51,7 @@ using System.Globalization;
 using System.Threading;
 using System.Text;
 using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace GRBL_Plotter
 {
@@ -165,6 +166,8 @@ namespace GRBL_Plotter
             cmsCodeSendLine.ShortcutKeys = Keys.Alt | Keys.Control | Keys.M;
             moveToMarkedPositionToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.M;
             pasteFromClipboardToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.V;
+
+            toolStrip_tBRadiusCompValue.Text = string.Format("{0:0.000}", Properties.Settings.Default.crcValue);
 
             if (_serial_form == null)
             {
@@ -1808,6 +1811,23 @@ namespace GRBL_Plotter
             gBoxOverrideBig = !gBoxOverrideBig;
         }
 
+        public void setUndoText(string txt)
+        {
+            if (txt.Length > 1)
+            {
+                unDoToolStripMenuItem.Text = txt;
+                unDoToolStripMenuItem.Enabled = true;
+                unDo2ToolStripMenuItem.Text = txt;
+                unDo2ToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                unDoToolStripMenuItem.Text = "Undo last action";
+                unDoToolStripMenuItem.Enabled = false;
+                unDo2ToolStripMenuItem.Text = "Undo last action";
+                unDo2ToolStripMenuItem.Enabled = false;
+            }
+        }
     }
 }
 
