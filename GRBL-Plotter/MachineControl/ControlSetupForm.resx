@@ -5049,7 +5049,7 @@ Or assign a filename containing GCode. </value>
     <value>239, 6</value>
   </data>
   <data name="groupBox37.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 100</value>
+    <value>336, 100</value>
   </data>
   <data name="groupBox37.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -15062,9 +15062,6 @@ Setup window must be closed to use GamePad in GUI.
         ////////////////////////////////////////////////////////////////////////////////
         //8=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
     <value>200, 150</value>

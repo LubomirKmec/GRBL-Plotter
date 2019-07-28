@@ -28,8 +28,8 @@ namespace GRBL_Plotter
         {
             InitializeComponent();
             linkLabel2.Text = System.Windows.Forms.Application.StartupPath;
-            toolTip1.SetToolTip(linkLabel2, "Open file explorer and visit '"+ System.Windows.Forms.Application.StartupPath + "'");
-//            linkLabel3.Text = System.Deployment.Application.ApplicationDeployment.CurrentDeployment.DataDirectory;
+            toolTip1.SetToolTip(linkLabel2, "Otvoriť prieskumníka súborov a pozrieť '" + System.Windows.Forms.Application.StartupPath + "'");
+//           linkLabel3.Text = System.Deployment.Application.ApplicationDeployment.CurrentDeployment.DataDirectory;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -52,5 +52,9 @@ namespace GRBL_Plotter
             Process.Start(System.Windows.Forms.Application.StartupPath);// (@"c:\test");
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
