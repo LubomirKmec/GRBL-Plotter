@@ -3858,7 +3858,7 @@ Vstupný kolík je k dispozícii na pripojenie k tlačidlu alebo prepínaču, ak
     <value>Domov</value>
   </data>
   <data name="btnKillAlarm.Text" xml:space="preserve">
-    <value>Zrušiť                 alarm</value>
+    <value>Zrušiť alarm</value>
   </data>
   <data name="btnOverrideDoor.Text" xml:space="preserve">
     <value>Dvere</value>
