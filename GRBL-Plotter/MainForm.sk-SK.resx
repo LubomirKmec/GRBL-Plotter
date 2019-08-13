@@ -3869,4 +3869,7 @@ Vstupný kolík je k dispozícii na pripojenie k tlačidlu alebo prepínaču, ak
   <data name="cBSendJogStop.Text" xml:space="preserve">
     <value>Zastaviť jogging tlačidlom myši nahor</value>
   </data>
+  <data name="unDoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vrátiť poslednú akciu</value>
+  </data>
 </root>
