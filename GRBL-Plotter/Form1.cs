@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -24,10 +18,6 @@ namespace GRBL_Plotter
         }
         public void vypocitaj(int vyskaAjMensia)
         {
-            // String text = fCTBCode.Text;
-            // MessageBox.Show(text);
-
-
 
             int poziciaPolaSuradnice = 0;
             int riadok = 1;
@@ -42,32 +32,13 @@ namespace GRBL_Plotter
             double vyskaPocitania = Convert.ToDouble(numericUpDown1.Value);
             double vyskaPocitaniaMenejAko = Convert.ToDouble(numericUpDown2.Value);
             string poslednaG = "";       // pre riadky, v ktorých sa nemení G súradnica a nie je uvedená
-            //double vyskaPocitania = 1;
             double predoslaX = 0;
-            //byte druhaXY = 0;
-            //double bodX = 0;
-            // double bodY = 0;
             double predoslaY = 0;
-            //double rozdielX = 0;
-            //double rozdielY = 0;
-            // double hornaZ = 5;
             double dolnaZ = 0;
             double vzdialenost;
-            double celkovaVzdialenost = 0;
-            //byte Ce = 5;       // odkaz na číslo suradnice poľa
-            // double uholC = 0;   // plný uhol
-            double uhol = 0;    ///tangens do 90st. , neskor do 360
-            //double predoslyCuhol = 0;   //plný uhol
-            //double predoslyUhol = 0;    // do 360
-            //double maxCuhol = Convert.ToDouble(numericUpDown2.Value);
-            //int zachytRiadok = 0; ;       // pre súčastne otáčanie nožíka počas posuvu pri zmene pozície nad bezpečnou rovinou
+            double celkovaVzdialenost = 0;            
+            double uhol = 0;    
             byte quartal = 1;
-            //byte predoslyQuartal = 1;
-            //int otackyC = 0;
-            //byte doplneneRiadky = 15;        // odkaz na číslo suradnice poľa
-            //string text = "";
-
-            //if (File.Exists(fCTBCode.Text))
             if (textBox1.Text != "")
             {
                 subor = (textBox1.Text);
@@ -264,31 +235,22 @@ namespace GRBL_Plotter
                             if(vyskaAjMensia == -100)
                             {
                                 if (cisloZ >= vyskaPocitaniaMenejAko)
-                                { // minimálna výška pre bezpečné natáčanie nožíka. Hodnota výšky použitá z gcode-u.
-                                  //hornaZ = cisloZ;
-
-                                    dolnaZ = 0;
-                                    //druhaXY = 0;
+                                {
+                                    dolnaZ = 0;                                    
                                 }
                                 else if (cisloZ < vyskaPocitaniaMenejAko)
                                 {
-                                    //dolnaZ = cisloZ;
                                     dolnaZ = 1;
-
                                 }
                             }
                             else
                             {
                                 if (cisloZ > vyskaPocitania || cisloZ < vyskaPocitania)
-                                { // minimálna výška pre bezpečné natáčanie nožíka. Hodnota výšky použitá z gcode-u.
-                                  //hornaZ = cisloZ;
-
-                                    dolnaZ = 0;
-                                    //druhaXY = 0;
+                                { 
+                                    dolnaZ = 0;                                    
                                 }
                                 else if (cisloZ == vyskaPocitania)
                                 {
-                                    //dolnaZ = cisloZ;
                                     dolnaZ = 1;
 
                                 }
