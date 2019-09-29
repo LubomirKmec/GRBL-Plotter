@@ -5634,6 +5634,12 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
   <data name="toolStripViewBackground.Text" xml:space="preserve">
     <value>Background</value>
   </data>
+  <data name="výpočetDĺžkyRezuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="výpočetDĺžkyRezuToolStripMenuItem.Text" xml:space="preserve">
+    <value>Výpočet dĺžky rezu</value>
+  </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
@@ -9340,6 +9346,12 @@ Add 'G54;' to GCode header to switch back automatically to G54 before streaming 
     <value>toolStripViewBackground</value>
   </data>
   <data name="&gt;&gt;toolStripViewBackground.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;výpočetDĺžkyRezuToolStripMenuItem.Name" xml:space="preserve">
+    <value>výpočetDĺžkyRezuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;výpočetDĺžkyRezuToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">

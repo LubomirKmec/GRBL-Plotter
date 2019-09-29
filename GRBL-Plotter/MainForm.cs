@@ -52,6 +52,7 @@ using System.Threading;
 using System.Text;
 using System.Diagnostics;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace GRBL_Plotter
 {
@@ -1828,6 +1829,19 @@ namespace GRBL_Plotter
                 unDo2ToolStripMenuItem.Enabled = false;
             }
         }
+
+        public static string textfCTBCode = "";
+        public void výpočetDĺžkyRezuToolStripMenuItem_Click(object sender, EventArgs e)
+        {           
+            if (fCTBCode.Text != "")
+            {
+                textfCTBCode = (fCTBCode.Text);
+            }
+
+                Form1 frm1 = new Form1();
+            frm1.Show();
+        }
+
     }
 }
 

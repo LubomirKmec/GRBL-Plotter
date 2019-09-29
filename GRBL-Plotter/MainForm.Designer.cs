@@ -329,6 +329,7 @@ namespace GRBL_Plotter
             this.toolStripViewMachine = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripViewTool = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripViewBackground = new System.Windows.Forms.ToolStripMenuItem();
+            this.výpočetDĺžkyRezuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MainTimer = new System.Windows.Forms.Timer(this.components);
@@ -2314,7 +2315,8 @@ namespace GRBL_Plotter
             this.toolStripViewMachineFix,
             this.toolStripViewMachine,
             this.toolStripViewTool,
-            this.toolStripViewBackground});
+            this.toolStripViewBackground,
+            this.výpočetDĺžkyRezuToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
@@ -2349,6 +2351,12 @@ namespace GRBL_Plotter
             this.toolStripViewBackground.Name = "toolStripViewBackground";
             resources.ApplyResources(this.toolStripViewBackground, "toolStripViewBackground");
             this.toolStripViewBackground.Click += new System.EventHandler(this.updateView);
+            // 
+            // výpočetDĺžkyRezuToolStripMenuItem
+            // 
+            this.výpočetDĺžkyRezuToolStripMenuItem.Name = "výpočetDĺžkyRezuToolStripMenuItem";
+            resources.ApplyResources(this.výpočetDĺžkyRezuToolStripMenuItem, "výpočetDĺžkyRezuToolStripMenuItem");
+            this.výpočetDĺžkyRezuToolStripMenuItem.Click += new System.EventHandler(this.výpočetDĺžkyRezuToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -2709,6 +2717,7 @@ namespace GRBL_Plotter
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator17;
         private System.Windows.Forms.ToolStripMenuItem toolStrip_RadiusComp;
         private System.Windows.Forms.ToolStripTextBox toolStrip_tBRadiusCompValue;
+        private System.Windows.Forms.ToolStripMenuItem výpočetDĺžkyRezuToolStripMenuItem;
     }
 }
 
