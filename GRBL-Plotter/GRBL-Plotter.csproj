@@ -604,9 +604,6 @@
     <Content Include="Resources\Home-PNG-03.png" />
     <Content Include="Resources\no_alarm-512.png" />
     <Content Include="Resources\reset.png" />
-    <Content Include="_misc\script_pen_pickup.nc">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="data\scripts\script_pen_remove.nc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -737,6 +734,9 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_misc\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -129,9 +129,7 @@ namespace GRBL_Plotter
             {
                 Exception ex = (Exception)e.ExceptionObject;
                 Logger.Error(ex, "UnhandledException");
-                if //(MessageBox.Show("Quit GRBL-Plotter?","Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                MessageBox.Show(ex.Message+"\r\n\r\n"+ GetAllFootprints(ex), "Main Form Application exception");
-                (MessageBox.Show("Ukončiť GRBL-Plotter?", "Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if(MessageBox.Show("Ukončiť GRBL-Plotter?", "Problem", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     Application.Exit();
             }
         }

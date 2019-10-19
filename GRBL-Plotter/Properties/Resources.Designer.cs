@@ -10,8 +10,9 @@
 
 namespace GRBL_Plotter.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
     /// </summary>
@@ -23,7 +24,7 @@ namespace GRBL_Plotter.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image down;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
