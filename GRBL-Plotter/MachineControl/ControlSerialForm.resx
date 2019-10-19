@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbPort.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>18</value>
   </data>
   <data name="cbBaud.Items" xml:space="preserve">
     <value>9600</value>
@@ -189,7 +189,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbBaud.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOpenPort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnOpenPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 0</value>
@@ -216,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnOpenPort.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="btnScanPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 0</value>
@@ -243,7 +247,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnScanPort.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <metadata name="serialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -252,10 +256,10 @@
     <value>Lucida Console, 8pt</value>
   </data>
   <data name="rtbLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 117</value>
+    <value>2, 120</value>
   </data>
   <data name="rtbLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 270</value>
+    <value>323, 270</value>
   </data>
   <data name="rtbLog.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -276,7 +280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rtbLog.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 393</value>
@@ -303,13 +307,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="btnSend.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 393</value>
+    <value>276, 393</value>
   </data>
   <data name="btnSend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 23</value>
+    <value>49, 23</value>
   </data>
   <data name="btnSend.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -330,13 +334,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSend.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="btnGRBLCommand0.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 417</value>
   </data>
   <data name="btnGRBLCommand0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+    <value>30, 23</value>
   </data>
   <data name="btnGRBLCommand0.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -345,7 +349,7 @@
     <value>$</value>
   </data>
   <data name="btnGRBLCommand0.ToolTip" xml:space="preserve">
-    <value>Get list of all GRBL commands</value>
+    <value>Help: Get list of all GRBL commands</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand0.Name" xml:space="preserve">
     <value>btnGRBLCommand0</value>
@@ -357,13 +361,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand0.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="btnGRBLCommand1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 417</value>
+    <value>31, 417</value>
   </data>
   <data name="btnGRBLCommand1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+    <value>30, 23</value>
   </data>
   <data name="btnGRBLCommand1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -372,10 +376,7 @@
     <value>$$</value>
   </data>
   <data name="btnGRBLCommand1.ToolTip" xml:space="preserve">
-    <value>View Grbl settings
-Grbl should respond with a list of the current system settings. 
-All of these settings are persistent and kept in EEPROM, so if you power down, 
-these will be loaded back up the next time you power up your Arduino.</value>
+    <value>View Grbl settings</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand1.Name" xml:space="preserve">
     <value>btnGRBLCommand1</value>
@@ -387,13 +388,13 @@ these will be loaded back up the next time you power up your Arduino.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="btnGRBLCommand2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 417</value>
+    <value>61, 417</value>
   </data>
   <data name="btnGRBLCommand2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+    <value>30, 23</value>
   </data>
   <data name="btnGRBLCommand2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -402,15 +403,7 @@ these will be loaded back up the next time you power up your Arduino.</value>
     <value>$#</value>
   </data>
   <data name="btnGRBLCommand2.ToolTip" xml:space="preserve">
-    <value>View gcode parameters
-G-code parameters store the coordinate offset values for G54-G59 work coordinates, 
-G28/G30 pre-defined positions, G92 coordinate offset, tool length offsets, and probing 
-(not officially, but we added here anyway). 
-Most of these parameters are directly written to EEPROM anytime they are changed and are persistent. 
-Meaning that they will remain the same, regardless of power-down, until they are explicitly changed. 
-The non-persistent parameters, which will are not retained when reset or power-cycled, are G92, G43.1 
-tool length offsets, and the G38.2 probing data.
-</value>
+    <value>View gcode parameters</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand2.Name" xml:space="preserve">
     <value>btnGRBLCommand2</value>
@@ -422,13 +415,13 @@ tool length offsets, and the G38.2 probing data.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="btnGRBLCommand3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 417</value>
+    <value>151, 417</value>
   </data>
   <data name="btnGRBLCommand3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+    <value>30, 23</value>
   </data>
   <data name="btnGRBLCommand3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -437,12 +430,7 @@ tool length offsets, and the G38.2 probing data.
     <value>$N</value>
   </data>
   <data name="btnGRBLCommand3.ToolTip" xml:space="preserve">
-    <value>View startup blocks
-$Nx are the startup blocks that Grbl runs every time you power on Grbl or reset Grbl. 
-In other words, a startup block is a line of G-code that you can have Grbl auto-magically
-run to set your G-code modal defaults, or anything else you need Grbl to do everytime you
-start up your machine. Grbl can store two blocks of G-code as a system default.
-</value>
+    <value>View startup blocks</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand3.Name" xml:space="preserve">
     <value>btnGRBLCommand3</value>
@@ -454,13 +442,13 @@ start up your machine. Grbl can store two blocks of G-code as a system default.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="btnGRBLCommand4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 417</value>
+    <value>181, 417</value>
   </data>
   <data name="btnGRBLCommand4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+    <value>30, 23</value>
   </data>
   <data name="btnGRBLCommand4.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -469,14 +457,7 @@ start up your machine. Grbl can store two blocks of G-code as a system default.
     <value>$X</value>
   </data>
   <data name="btnGRBLCommand4.ToolTip" xml:space="preserve">
-    <value>Kill alarm lock
-Grbl's alarm mode is a state when something has gone critically wrong, 
-such as a hard limit or an abort during a cycle, or if Grbl doesn't know its position. 
-By default, if you have homing enabled and power-up the Arduino, Grbl enters the alarm state, 
-because it does not know its position. The alarm mode will lock all G-code commands 
-until the '$H' homing cycle has been performed. Or if a user needs to override the alarm lock to 
-move their axes off their limit switches, for example, '$X' kill alarm lock will override the locks and allow G-code functions to work again. 
-</value>
+    <value>Kill alarm lock</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand4.Name" xml:space="preserve">
     <value>btnGRBLCommand4</value>
@@ -488,7 +469,7 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLCommand4.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="lblSrPos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -519,7 +500,7 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrPos.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -549,7 +530,7 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="lblSrBf.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -579,13 +560,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrBf.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 43</value>
+    <value>84, 43</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 13</value>
@@ -609,13 +590,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="lblSrFS.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblSrFS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 43</value>
+    <value>108, 43</value>
   </data>
   <data name="lblSrFS.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 13</value>
@@ -639,13 +620,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrFS.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="lblSrPn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblSrPn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 43</value>
+    <value>228, 43</value>
   </data>
   <data name="lblSrPn.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
@@ -669,13 +650,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrPn.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 43</value>
+    <value>202, 43</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 13</value>
@@ -699,13 +680,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="lblSrOv.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblSrOv.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 56</value>
+    <value>108, 56</value>
   </data>
   <data name="lblSrOv.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 13</value>
@@ -729,13 +710,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrOv.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 56</value>
+    <value>84, 56</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>24, 13</value>
@@ -759,13 +740,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="lblSrA.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblSrA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 56</value>
+    <value>228, 56</value>
   </data>
   <data name="lblSrA.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
@@ -789,13 +770,13 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrA.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 56</value>
+    <value>202, 56</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 13</value>
@@ -819,7 +800,7 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="lblSrLn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -849,7 +830,7 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrLn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -879,10 +860,10 @@ move their axes off their limit switches, for example, '$X' kill alarm lock will
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="btnCheckGRBL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 71</value>
+    <value>222, 71</value>
   </data>
   <data name="btnCheckGRBL.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
@@ -907,19 +888,22 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnCheckGRBL.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnGRBLReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 417</value>
+    <value>211, 417</value>
   </data>
   <data name="btnGRBLReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 23</value>
+    <value>65, 23</value>
   </data>
   <data name="btnGRBLReset.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="btnGRBLReset.Text" xml:space="preserve">
     <value>RESET</value>
+  </data>
+  <data name="btnGRBLReset.ToolTip" xml:space="preserve">
+    <value>Soft Reset via CTRL-X</value>
   </data>
   <data name="&gt;&gt;btnGRBLReset.Name" xml:space="preserve">
     <value>btnGRBLReset</value>
@@ -931,7 +915,95 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGRBLReset.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnGRBLHardReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 417</value>
+  </data>
+  <data name="btnGRBLHardReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="btnGRBLHardReset.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnGRBLHardReset.Text" xml:space="preserve">
+    <value>RST</value>
+  </data>
+  <data name="btnGRBLHardReset.ToolTip" xml:space="preserve">
+    <value>Try hard Reset via DTR / RTS
+Success depends on used hardware (DTR, RTS wired?)</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLHardReset.Name" xml:space="preserve">
+    <value>btnGRBLHardReset</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLHardReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLHardReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLHardReset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnGRBLCmndParser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGRBLCmndParser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 417</value>
+  </data>
+  <data name="btnGRBLCmndParser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="btnGRBLCmndParser.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnGRBLCmndParser.Text" xml:space="preserve">
+    <value>$G</value>
+  </data>
+  <data name="btnGRBLCmndParser.ToolTip" xml:space="preserve">
+    <value>View gcode parser state</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndParser.Name" xml:space="preserve">
+    <value>btnGRBLCmndParser</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndParser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndParser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndParser.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="btnGRBLCmndBuild.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGRBLCmndBuild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 417</value>
+  </data>
+  <data name="btnGRBLCmndBuild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="btnGRBLCmndBuild.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnGRBLCmndBuild.Text" xml:space="preserve">
+    <value>$I</value>
+  </data>
+  <data name="btnGRBLCmndBuild.ToolTip" xml:space="preserve">
+    <value>View build info</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndBuild.Name" xml:space="preserve">
+    <value>btnGRBLCmndBuild</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndBuild.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndBuild.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGRBLCmndBuild.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lblSrState.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
@@ -961,7 +1033,7 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;lblSrState.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="cBCommand.Items" xml:space="preserve">
     <value>$H (Homing)</value>
@@ -976,7 +1048,7 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>75, 395</value>
   </data>
   <data name="cBCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 21</value>
+    <value>195, 21</value>
   </data>
   <data name="cBCommand.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -994,7 +1066,7 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cBCommand.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="cbStatus.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1021,13 +1093,40 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;cbStatus.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="tBURL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 5</value>
+  </data>
+  <data name="tBURL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="tBURL.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="tBURL.Text" xml:space="preserve">
+    <value>192.168.2.122</value>
+  </data>
+  <data name="tBURL.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tBURL.Name" xml:space="preserve">
+    <value>tBURL</value>
+  </data>
+  <data name="&gt;&gt;tBURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tBURL.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tBURL.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnCheckGRBLResult.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="btnCheckGRBLResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 71</value>
+    <value>299, 71</value>
   </data>
   <data name="btnCheckGRBLResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 20</value>
@@ -1048,13 +1147,13 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnCheckGRBLResult.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 24</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 94</value>
+    <value>320, 94</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -1072,11 +1171,38 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <metadata name="timerSerial.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>239, 17</value>
   </metadata>
+  <data name="cBTelnet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 0</value>
+  </data>
+  <data name="cBTelnet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 24</value>
+  </data>
+  <data name="cBTelnet.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="cBTelnet.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="cBTelnet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cBTelnet.Name" xml:space="preserve">
+    <value>cBTelnet</value>
+  </data>
+  <data name="&gt;&gt;cBTelnet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBTelnet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cBTelnet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1087,7 +1213,7 @@ Not for GRBL Vers. &lt; 1.0</value>
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>284, 441</value>
+    <value>326, 441</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4096,9 +4222,8 @@ Not for GRBL Vers. &lt; 1.0</value>
 </value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>300, 480</value>
+    <value>342, 480</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

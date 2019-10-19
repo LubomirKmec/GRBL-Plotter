@@ -128,7 +128,7 @@ namespace GRBL_Plotter.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Crystal_Project_pause_queue {
             get {
-                object obj = ResourceManager.GetObject("Crystal_Project_pause-queue", resourceCulture);
+                object obj = ResourceManager.GetObject("down", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -305,6 +305,16 @@ namespace GRBL_Plotter.Properties {
         internal static System.Drawing.Bitmap turn_r {
             get {
                 object obj = ResourceManager.GetObject("turn_r", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap up {
+            get {
+                object obj = ResourceManager.GetObject("up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
