@@ -446,9 +446,9 @@ namespace GRBL_Plotter
             Properties.Settings.Default.guiLanguage = "de-DE";
             MessageBox.Show("Ein Neustart von GRBL-Plotter ist erforderlich");
         }
-                private void slovakToolStripMenuItem_Click(object sender, EventArgs e)
+        private void slovakToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.language = "sk-SK";
+            Properties.Settings.Default.guiLanguage = "sk-SK";
             MessageBox.Show("Vyžaduje sa reštart GRBL-plottru");
         }
 #endregion

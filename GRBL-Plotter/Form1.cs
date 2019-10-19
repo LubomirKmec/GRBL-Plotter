@@ -718,8 +718,8 @@ namespace GRBL_Plotter
                     poslednaG = G;
 
                     if (riadok == r + 2)
-                    {
-                        MessageBox.Show("Dĺžka dráhy vyrezávania je: " + celkovaVzdialenost / 1000 + " metrov.");
+                    {                       
+                        MessageBox.Show("Dĺžka dráhy vyrezávania je: " + (Math.Round((celkovaVzdialenost / 1000),3)) + " metrov.");
                     }
                 }
             }
